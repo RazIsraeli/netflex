@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class MovieApiServiceService {
-  baseUrl = 'http://api.themoviedb.org/3';
+  baseUrl = 'https://api.themoviedb.org/3';
   apiKey = '8c9d4f62b057598f36960efa3dced4e5';
 
   genres = {
