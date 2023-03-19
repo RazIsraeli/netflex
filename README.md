@@ -6,22 +6,30 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Production
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+https://razisraeli.github.io/netflex/
 
-## Build
+## App Description
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+This app was developed by following this video on YouTube: https://www.youtube.com/watch?v=H9z8jttAlRU, and making small changes according to my decisions where needed.
 
-## Running unit tests
+A netflix based app where I use the movie db API to fetch movies and cast data and present to the user.
+App abilities:
+- Search for a movie by title
+- Review the newest/trending movies
+- Review movies by genre
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Tech Stack
+Angular 15.0.4,
+Angular router,
+Typescript,
+RxJS,
+HTML,
+SCSS
 
-## Running end-to-end tests
+## Todo
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+  - In the movie service, generalize the "get<genre>movies" to pass a parameter that will fetch the desired genre (rather than having a function per genre).
+  - Im the home page, create a reusable component and use it multiple times rather than write the HTML of each component genre (e.g action movies, adventure movies, and so on....).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
