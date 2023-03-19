@@ -20,6 +20,8 @@ App abilities:
 - Review the newest/trending movies
 - Review movies by genre
 
+the movie db api: https://developers.themoviedb.org/4/getting-started
+
 ## Tech Stack
 Angular 15.0.4,
 Angular router,
