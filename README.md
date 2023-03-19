@@ -32,4 +32,5 @@ SCSS
 
   - In the movie service, generalize the "get<genre>movies" to pass a parameter that will fetch the desired genre (rather than having a function per genre).
   - Im the home page, create a reusable component and use it multiple times rather than write the HTML of each component genre (e.g action movies, adventure movies, and so on....).
+  - Make the website responsive (tablet and mobile phones)
 
